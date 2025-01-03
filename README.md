@@ -1,24 +1,21 @@
-# README
+# DevGeorge
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This README documents the steps necessary to get the DevGeorge application up and running.
 
-Things you may want to cover:
+## Ruby version
 
-* Ruby version
+- Ruby version: Check the `.ruby-version` file for the specific version used in this project.
 
-* System dependencies
+## System dependencies
 
-* Configuration
+- Docker
+- Docker Compose
+- MySQL
+- Redis
 
-* Database creation
+## Configuration
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Copy the sample environment file and update it with your configuration:
+   ```sh
+   cp .env.sample .env
+   ```
